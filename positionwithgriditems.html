@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            height: 800px;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 10px;
+        }
+        
+        .box1 {
+            border: 2px solid black;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            height: 100px;
+            width: 97%;
+            position: fixed;
+        }
+        
+        .box2 {
+            border: 2px solid black;
+            height: 360px;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            margin-top: 120px;
+        }
+        
+        .box3 {
+            margin-top: 120px;
+            border: 2px solid black;
+            height: 660px;
+            width: 460px;
+        }
+        
+        .box4 {
+            border: 2px solid black;
+            height: 275px;
+            width: 300px;
+            color: blue;
+        }
+        
+        .box5 {
+            border: 2px solid black;
+            height: 275px;
+            width: 300px;
+        }
+        
+        .box6 {
+            border: 2px solid black;
+            height: 275px;
+            width: 300px;
+        }
+        
+        .header2 {
+            display: flex;
+            margin: 10px;
+            gap: 30px;
+            position: relative;
+            top: -300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+        <div class="box3">3</div>
+        <div class="header2">
+            <div class="box4"><i class="fas fa-robot fa-4x"></i></div>
+            <div class="box5">5</div>
+            <div class="box6">6</div>
+        </div>
+    </div>
+</body>
+
+</html>
